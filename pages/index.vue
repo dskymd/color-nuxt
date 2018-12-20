@@ -4,7 +4,6 @@
 
       <h2>Colors</h2>
 
-      <!-- <table class="uk-table"> -->
       <ul>
         <li v-for="o in items">
           <span class="tip" :style="'background: #'+o.hex"></span>{{o.hex}} <span v-if="o.label">: {{o.label}}</span>
